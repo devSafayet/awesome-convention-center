@@ -11,9 +11,16 @@
        ----------------------------------------------- -------------------------->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
-
+    <!----------------------- css stylesheet ------------------>
+      <link rel="stylesheet" href="style.css">
       <!--------------------- Font Awesome Link ------------------------------- -->
     <script src="https://kit.fontawesome.com/f9bdb0c80c.js" crossorigin="anonymous"></script>
+
+    <!-- Font Link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather:ital,wght@1,700&family=Nunito:wght@300&family=Oswald:wght@500&family=Poppins:wght@600&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
@@ -23,7 +30,7 @@
     <Header>
         <!---------- Nav Section --- -->
 
-        <div class="container">
+        <div class="p-5 align-items-center">
                 <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
                     <div class="container-fluid">
                       <h2>Awesome Convention Center</h2>
@@ -53,7 +60,7 @@
 
         <!------------------ Slider Area Start ----------------------------- -->
         
-        <section class="slider-section .col-sm">
+        <section class="slider-section ">
             <div id="carouselExampleDark" class="carousel carousel-white slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -64,17 +71,17 @@
                   <div class="carousel-item active" data-bs-interval="10000">
                     <img src="images/slider-img/banner-01.png" class="d-block w-100 h-50px" alt="">
                     <div class="carousel-caption d-none d-md-block">
-                      <h1 class="text-white">The perfect venue <br> Awesome Convention Center</h1>
+                      <h1 class="text-#fff">The perfect venue <br> Awesome Convention Center</h1>
                       <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit </p>
-                      <button type="button" class="btn btn-light text-primary">BOOK NOW </button>
+                      <button type="button" class="btn btn-light text-success">BOOK NOW </button>
                     </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="2000">
                     <img src="images/slider-img/banner-02.png" class="d-block w-100" alt="">
                     <div class="carousel-caption d-none d-md-block">
-                        <h1 class="text-white">We have the  <br> best Food in the venue</h1>
+                        <h1 class="text-#fff">We have the  <br> best Food in the venue</h1>
                         <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit </p>
-                        <button type="button" class="btn btn-light text-primary">BOOK NOW </button>
+                        <button type="button" class="btn btn-light text-success">BOOK NOW </button>
                       </div>
                   </div>
                   <div class="carousel-item">
@@ -82,7 +89,7 @@
                     <div class="carousel-caption d-none d-md-block">
                         <h1 class="text-white">We try Our <br>Best to Serve</h1>
                         <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit </p>
-                        <button type="button" class="btn btn-light text-primary">BOOK NOW </button>
+                        <button type="button" class="btn btn-light text-success">BOOK NOW </button>
                       </div>
                   </div>
                 </div>
@@ -102,19 +109,19 @@
                                         Main Area Start 
     ------------------------------------------------------------------------- -->
     <main>
-        <!---------------------------- Our package Area              -->
-        <section class="mt-5 mb-5">
-            <h2 class="mb-5 text-center">Our package</h2>
+        <!---------------------------- Our package Area -----------------    -->
+        <section class="package-area mt-5 mb-5">
+            <h2 class="hadding-area mb-5 text-center">Our package</h2>
             
-                <div class="row card-group justify-content-center">
-                    <div class="card-1 col-md-6 col-lg-3">
+                <div class="row card-group justify-content-center mt-5 mb-5">
+                    <div class="card-1 col-md-6 col-lg-3 ">
                       
                       <div class="card-body">
                         <h1>$300</h1>
                         <h2>Business fair</h2>
                         <p>For most businesses event <br>
                             like book fair, craft fair.</p>
-                            <div class="d-flex">
+                            <div class= "d-flex">
                                 <i class="far fa-check-circle"></i>
                                 <p>Accommodates 400 Guests</p>
                             </div>
@@ -135,7 +142,7 @@
                                 <p>Secuirty facility</p>
                             </div>
                       </div>
-                      <div class="card-footer rounded-pill">
+                      <div class="card-footer rounded-pill mb-3 text-center">
                         <small class="text-muted">Choose plan</small>
                       </div>
                     </div>
@@ -168,13 +175,18 @@
                                   <p>Food arrangement</p>
                               </div>
                         </div>
-                        <div class="card-footer rounded-pill">
+                        <div class="card-footer rounded-pill mb-3 text-center">
                           <small class="text-muted">Choose plan</small>
                         </div>
                       </div>
-                      <div class="card-3 shadow-lg rounded-3 bg-primary text-white col-md-6 col-lg-3">
+                      <div class="card-3 rounded-3 bg-primary text-white col-md-6 col-lg-3 position-relative">
                       
-                        <div class="card-body">
+                        <div class="card-body ">
+                          
+                          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            Hot
+                          </span>
+
                           <h1>$800</h1>
                           <h2>Wedding plus</h2>
                           <p>For most businesses event <br>
@@ -200,7 +212,7 @@
                                   <p>Dedicated team</p>
                               </div>
                         </div>
-                        <div class="card-footer rounded-pill bg-white">
+                        <div class="card-footer rounded-pill bg-white mb-3 text-center">
                           <small class="text-primary">Choose plan</small>
                         </div>
                       </div>
@@ -232,8 +244,8 @@
                                   <p>premium Decoration</p>
                               </div>
                         </div>
-                        <div class="card-footer rounded-pill">
-                          <small class="text-muted">Choose plan</small>
+                        <div class="card-footer rounded-pill mb-3 text-center">
+                          <small class="text-muted ">Choose plan</small>
                         </div>
                       </div>
                   </div>
@@ -249,7 +261,7 @@
 
             <div class="row mx-auto align-items-center">
               
-              <div class="col-lg-6">
+              <div class="col-lg-6 mb-5">
                 <div class="accordion" id="accordionPanelsStayOpenExample">
                   <div class="accordion-item">
                     <!-- accordion-item 01 Strat  -->
@@ -309,18 +321,33 @@
               </div>
               </div>
             <!-- accordion Area images  -->
-            <div class="col-lg-6">
+            <div class="col-lg-6 mb-5">
               <img class="img-fluid" src="images/people.png" alt="">
             </div>
 
           </div>
         </section>
         <!-- --------------------------------contact-area ----------------------- -->
-        <div class="contact-main-area bg-light pb-3">
-          <h1 class="text-center">Contact Us</h1>
+        <div class="contact-main-area bg-light pb-3 mt-5 mb-5">
+          <a style="text-decoration: none;" href="#">
+            <h1 class="text-center pb-3">Contact Us</h1>
+          </a>
           <section class="container d-flex justify-content-between ">
             <div class="row mx-auto">
-              <div class="hotel-part col-sm-4 col-md-6 col-lg-4 pb-3">
+
+              <div class="contact-part col-sm-4 col-md-6 col-lg-4 pb-4">
+                <div class="justify-content-center">
+                  <img src="icons/bonos.png" alt="">
+                </div> 
+                <h5>Awesome Convention Center</h5> 
+                <div class="text-center">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#"> <i class="fab fa-linkedin"></i></a>
+                </div>
+                </div>
+
+              <div class="hotel-part col-sm-4 col-md-6 col-lg-4 pb-5">
                 <h3>Our Hotel</h3>
                 <div class="">
                   
@@ -332,23 +359,14 @@
                   
                 </div>
               </div>
-              <div class="cotact-part col-sm-4 col-md-6 col-lg-4 pb-3"> 
+              <div class="cotact-part col-sm-4 col-md-6 col-lg-4 pb-5"> 
                 <h3>Contact</h3>
                 <a class="text-decoration-none pb-3" href="">Awesome Convention center,Banani,  <br> Dhaka, Bangladesh</a> <br>
                 <a class="text-decoration-none pb-3" href="">Phone: +88 (02) 000000000 (HUNTING)</a> <br>
-                <a class="text-decoration-none pb-3" href="">Mail: mrishafayet003@gmail.com.bd</a> <br>
+                <a class="text-decoration-none pb-3" href="">Mail:mrishafayet003@gmail.com</a> <br>
                 <a class="text-decoration-none pb-3" href="">Cell : +88 018000000000 </a> <br>
                 
               </div>
-              <div class="contact-part col-sm-4 col-md-6 col-lg-4 pb-3 justify-content-center">
-                <img src="icons/bonos.png" alt=""> <br>
-                <h4>Awesome Convention Center</h4> <br>
-                <div class="text-center">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram-square"></i></a>
-                <a href="#"> <i class="fab fa-linkedin"></i></a>
-                </div>
-                </div>
             </div>
           </section>
         </div>
@@ -357,18 +375,16 @@
     <!--  --------------------------------------------------------------------------  
                                         Footer Area Start 
     -------------------------------------------------------------------------- -->
-    <footer class="bg-black ">
-      <div class="container d-flex justify-content-between pt-5 pb-5">
+    <footer class="bg-black">
+      <div class="container pt-3 pb-3">
         <div class="row">
-          <div class="text-white justify-content-between col-sm-6 col-lg-6 pb-5 ">
-            <p>
-              © 2022 bike. All rights reserved
-            </p>
+          <div class="col-lg-6 col-sm-12">
+            <p class="">© 2022 bike. All rights reserved</p>
           </div>
-          <div class="justify-content-between col-sm-6 col-lg-6 justify-content-between">
+          <div class="col-lg-6 col-sm-12">
             <h5 class="text-white pb-3 ">Get the App</h5>
-            <a class="pb-3" href="#"><img src="icons/_Group_.png" alt=""> </a> <br>
-            <a class="pb-3" href="#"><img src="icons/Layer 2.png" alt=""></a>
+            <a class="pb-3 pt-3 " href="#"><img src="icons/_Group_.png" alt=""> </a> <br>
+            <a class="pb-3 pt-3" href="#"><img src="icons/Layer 2.png" alt=""></a>
           </div>
         </div>
       </div>
