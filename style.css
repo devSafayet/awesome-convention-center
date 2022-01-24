@@ -1,9 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/*-------------------------------------- slider Area --------------------  */
 .slider-section{
     margin: 50px;
 }
+
+/* ---------------------------------Package Area ------------------------- */
 .package-area{
     margin: 80px;
     padding-top: 50px;
@@ -16,4 +19,3 @@ body{
   padding: 10px;
   box-shadow: 5px 10px 8px 10px #888888;
 }
-
